@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Bungee+Shade&family=Fredoka+One&family=Lato:wght@300&family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1d2630;
+    height: 35%;
+    width: 550px;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left:0;
+    right: 0;
+    padding: 30px 0;
+    border-radius: 8px;
+}
+.completed {
+    background: lightblue ;
+    text-decoration: line-through;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  h1 {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    height: 30px;
+    font-weight: 200px;
+    margin-bottom: 10px;
+  }
+  p {
+    color: black;
+
+
+  }
+
+  .container {
+    position: relative;
+    width: 80%;
+    margin: 0 10%;
+    border: 3px solid white;
+    text-align: center;
+    height: 800px;
+    background-color: aliceblue;
+  }
+/* new course section*/ 
+  #newcourse {
+    margin-top: 20px;
+  }
+
+  #newcourse > button {
+    padding: 10px; 
+    background-color: lightblue;
+    border-radius: 30px;
+    margin-bottom: 2px; 
+  }
+
+  #newcourse > input {
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  /*courses section*/
+  
+  #courses{
+
+    height: 670px;
+    
+  }
+
+
+  .task {
+    background: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 2px solid #d1d3d4;
+}
+
+.task span {
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task button {
+    border: none;
+    background: lightcoral;
+    height: 100%;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+  
