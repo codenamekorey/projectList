@@ -28,6 +28,7 @@ function addTask(){
     }
 }
 /*Axios*/
+/*
 document.getElementById("list").onclick = function() {
     axios
     .get("http://localhost:5500/api/task")
@@ -43,5 +44,5 @@ document.getElementById("list").onclick = function() {
         document.getElementById("courses").innerHTML =
               '<li class="text-danger">' + err.message + "</li>";
     });
-};
+};*/
 submit.addEventListener("click", addTask);
